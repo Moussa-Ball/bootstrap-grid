@@ -1,0 +1,19 @@
+{
+  "name": "bootstrap-grid",
+  "version": "3.3.2",
+  "homepage": "https://github.com/simison/bootstrap-grid",
+  "authors": [
+    "Mikael Korpela <mikael@ihminen.org>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "3.3.2"
+  }
+}
