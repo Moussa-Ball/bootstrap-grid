@@ -5,9 +5,10 @@ module.exports = function(grunt) {
     less: {
       default: {
         options: {
+          paths: ['build/bootstrap-grid.css'],
           compress: false,
           sourceMap: true,
-          sourceMapFilename: 'dist/bootstrap-grid.css.map'
+          sourceMapFilename: 'bootstrap-grid.css.map'
         },
         files: {
           'dist/bootstrap-grid.css': 'bootstrap-grid.less'
@@ -15,9 +16,10 @@ module.exports = function(grunt) {
       },
       minified: {
         options: {
+          paths: ['build/bootstrap-grid.css'],
           compress: true,
           sourceMap: true,
-          sourceMapFilename: 'dist/bootstrap-grid.min.css.map'
+          sourceMapFilename: 'bootstrap-grid.min.css.map'
         },
         files: {
           'dist/bootstrap-grid.min.css': 'bootstrap-grid.less'
